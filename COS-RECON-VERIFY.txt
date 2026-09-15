@@ -1,3 +1,0 @@
-CoS GitHub verify suite
-Created: 2026-09-15
-Repo: jderomanis1/foundation-sprint
