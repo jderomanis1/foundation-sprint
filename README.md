@@ -15,4 +15,5 @@ Purpose: prove state sharing, handoff format, live UAT, cost per increment, and 
 Static HTML + CSS + JS. No framework. One interactive control (theme toggle).
 
 ## Live site
-After Pages is enabled (source: **GitHub Actions**), the site is served from the workflow artifact (`index.html`, `styles.css`, `app.js`, `theme.js` only).
+Pages source must be **GitHub Actions**. Public site assets only: `index.html`, `styles.css`, `app.js`, `theme.js`.
+Expected URL: https://jderomanis1.github.io/foundation-sprint/
