@@ -11,6 +11,8 @@
     T.readStoredTheme(localStorage)
   );
 
+  if (!btn) return;
+
   btn.addEventListener("click", function () {
     var current = document.documentElement.getAttribute("data-theme");
     T.applyTheme(document, btn, status, localStorage, T.nextTheme(current));
